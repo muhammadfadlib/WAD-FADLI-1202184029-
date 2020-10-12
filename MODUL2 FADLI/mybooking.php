@@ -83,7 +83,7 @@
                     <td><strong>'  . rand() . '</strong></td>
                     <td>' . $_POST['name'] . '</td>
                     <td>' . $dateBook . '</td>
-                    <td>' . $dateCheckOut . '</td>
+                    <td>' . $dateCheckout . '</td>
                     <td>' . $roomType . '</td>
                     <td>' . $_POST['inputPhone'] . '</td> 
                     <td><ul>';

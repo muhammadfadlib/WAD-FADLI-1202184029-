@@ -39,7 +39,7 @@
                             <label for="inputNama" class="col-sm-3 col-form-label">Name</label>
                             <div class="col-sm-12">
                                 <input type="text" class="form-control" id="inputNama" placeholder="Nama Anda"
-                                    name="name" value="" required>
+                                    name="nama" value="" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -54,7 +54,7 @@
                             <div class="col-sm-12">
                                 <input required name="duration" placeholder="Duration" class="form-control"
                                     type="number" min="1" aria-describedby="days">
-                                <small id="days" class="form-text text-muted">Day(s)</small>
+                                <small id="month" class="form-text text-muted">Day(s)</small>
                             </div>
                         </div>
 
