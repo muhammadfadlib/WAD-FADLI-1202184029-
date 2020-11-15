@@ -51,11 +51,12 @@
 
                     <tr>
                         <?php
+                        $name = $_POST['name'];
                         $roomType = $_POST['roomList'];
                         $duration = $_POST['duration'];
                         $roomPrice = 0;
                         $dateBook = date('d/m/Y', strtotime($_POST['inputDate']));
-                        $dateCheckOut = date('d/m/Y', strtotime("+$duration days", strtotime($_POST['inputDate'])));
+                        $dateCheckout = date('d/m/Y', strtotime("$duration+ days", strtotime($_POST['inputDate'])));
                         switch ($roomType) {
                             case 'Standard':
                                 $roomPrice = 90;

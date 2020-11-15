@@ -148,7 +148,7 @@
                         <a href="booking.php?room=<?php echo 'Luxury&img=lux.jpg' ?>"><button type="button"
                                 class="btn btn-primary">Book Now</button></a>
                     </div>
-
+</div>
                 </div>
             </div>
         </div>

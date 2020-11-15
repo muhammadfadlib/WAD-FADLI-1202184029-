@@ -90,7 +90,7 @@
                                     <option id="3" value="Luxury">
                                         Luxury</option>
                                 </select>
-                            </div>';
+                            ';
                                     }
                                 }
                                 ?>
