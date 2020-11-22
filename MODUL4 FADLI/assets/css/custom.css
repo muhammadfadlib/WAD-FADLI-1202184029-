@@ -1,0 +1,11 @@
+.container-fluid-nav div{
+    display: flex;
+    justify-content: center;
+}
+.titel{
+    color: #17a2b8 !important;
+    text-align: center;
+}
+.bekround{
+    background-color: lightblue !important;
+}
