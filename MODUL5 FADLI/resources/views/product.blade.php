@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layout.app')
 @section('template')
 @if($product=='[]')
 <div class="text-center">
